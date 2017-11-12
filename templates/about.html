@@ -1,7 +1,43 @@
 {% extends 'base.html' %}
+{% load staticfiles %}
+{#{% block style %}#}
+{#    <style>#}
+{#    .jumbotron{#}
+{#        text-align: center;#}
+{#        font-family: sans-serif;#}
+{#        color: black;#}
+{#    }#}
+{##}
+{#    </style>#}
+{#{% endblock %}#}
+{#{% block jumbtron %}#}
+{#     <!-- Main jumbotron for a primary marketing message or call to action -->#}
+{#      <div class="jumbotron">#}
+{##}
+{#      </div>#}
+{#{% endblock %}#}
 {% block content %}
- <h1>....  </h1>
- <h1>This is Kamrujjaman joy</h1>
- <p> i am CSE Engineer .Coder ..Programmer ...</p>
- 
+    <div class="row">
+
+
+        <div class="col-md-8">
+
+
+        <!-- Carousel
+    ================================================== -->
+
+
+      <!-- Indicators -->
+
+        <div class="item active">
+          <img class="first-slide" src="{% static 'img/joy.jpg' %}" alt="First slide"  style="height: 500px" width="1150px">
+
+
+
+        </div>
+
+   <!-- /.carousel -->
+
+      </div>
+    </div>
 {% endblock %}

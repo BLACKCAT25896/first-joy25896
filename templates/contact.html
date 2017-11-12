@@ -9,6 +9,9 @@
    <form method="POST" action="">
        {% csrf_token %}
         {{ form|crispy }}
+
+
+
         <input type="submit" value="SubmitForm" class="btn btn-default" />
     </form>
     {% endif %}

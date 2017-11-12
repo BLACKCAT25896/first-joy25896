@@ -1,33 +1,33 @@
 {% extends 'base.html' %}
 {% load staticfiles %}
-{% block style %}
-    <style>
-    .jumbotron{
-        text-align: center;
-        font-family: sans-serif;
-        color: gray;
-    }
-    </style>
-{% endblock %}
-{% block jumbtron %}
-     <!-- Main jumbotron for a primary marketing message or call to action -->
-      <div class="jumbotron">
-        
-      </div>
-{% endblock %}
+{#{% block style %}#}
+{#    <style>#}
+{#    .jumbotron{#}
+{#        text-align: center;#}
+{#        font-family: sans-serif;#}
+{#        color: gray;#}
+{#    }#}
+{#    </style>#}
+{#{% endblock %}#}
+{#{% block jumbtron %}#}
+{#     <!-- Main jumbotron for a primary marketing message or call to action -->#}
+{#      <div class="jumbotron">#}
+{##}
+{#      </div>#}
+{#{% endblock %}#}
 {% block content %}
     <div class="row">
-        
+
        <!--  <div class="col-md-4">
         <h2>joy</h2>
             <a href="#"><img src="{% static 'img/home.jpg' %}" class="img-responsive"/></a>
         </div> -->
         <div class="col-md-8">
             {% if request.user.is_authenticated %}
-            <h3>Hello {{ request.user }} You Are Welcome</h3>
+            <h1>Hello {{ request.user }} You Are Welcome</h1>
 
             {% else %}
-            <form class="login" method="POST" action="{% url 'account_login' %}">
+            <form class="login" method="POST" action="{% url 'login' %}">
                 {% csrf_token %}
         <div id="div_id_login" class="form-group"> <label for="id_login" class="control-label  requiredField">
                 Login<span class="asteriskField">*</span> </label> <div class="controls "> <input type="text" name="login" placeholder="Username or e-mail" autofocus="autofocus" class="textinput textInput form-control" required="" id="id_login"> </div> </div> <div id="div_id_password" class="form-group"> <label for="id_password" class="control-label  requiredField">
@@ -35,13 +35,15 @@
                     Remember Me
                 </label> </div> </div>
          <a class="btn btn-link button secondaryAction" href="{% url 'account_reset_password' %}">Forgot Password?</a>
-          <a class="btn btn-link button secondaryAction" href="{% url 'account_signup' %}">Sign_Up</a>
-        <button class="btn btn-default primaryAction" type="submit">Sign In</button>
+          <a class="btn btn-link button secondaryAction" href="{% url 'register' %}">SIGNUP</a>
+        <button class="btn btn-default primaryAction" type="submit">LOGIN</button>
              </form>
             {% endif %}
         </div>
+
+        </br></br> </br></br> </br></br> </br> </br></br> </br></br>
        <!--  <div class="col-lr-12">
-          
+
            <a href="#"><img src="{% static 'img/tt.jpg' %}" class="img-responsive"/></a>
            <a href="#"><img src="{% static 'img/4.jpg' %}" class="img-responsive"/></a>
            <a href="#"><img src="{% static 'img/3.jpg' %}" class="img-responsive"/></a>
@@ -56,38 +58,67 @@
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
         <li data-target="#myCarousel" data-slide-to="1"></li>
         <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+        <li data-target="#myCarousel" data-slide-to="4"></li>
+        <li data-target="#myCarousel" data-slide-to="5"></li>
+        <li data-target="#myCarousel" data-slide-to="6"></li>
+        <li data-target="#myCarousel" data-slide-to="7"></li>
+
       </ol>
       <div class="carousel-inner" role="listbox">
         <div class="item active">
-          <img class="first-slide" src="{% static 'img/tt.jpg' %}" alt="First slide"  style="height: 400px" width="1200px">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>COMPUTER SCIENCE AND ENGINEERIG.</h1>
-              <p>Note: If you're viewing this page via a <code>file://</code> URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
-            </div>
-          </div>
+          <img class="first-slide" src="{% static 'img/d4.png' %}" alt="First slide"  style="height: 500px" width="1200px">
+{#          <div class="container">#}
+{#            <div class="carousel-caption">#}
+{#              <h1>COMPUTER SCIENCE AND ENGINEERIG.</h1>#}
+{#              <p>Note: If you're viewing this page via a <code>file://</code> URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p>#}
+{#              <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>#}
+{#            </div>#}
+{#          </div>#}
         </div>
         <div class="item">
-          <img class="second-slide" src="{% static 'img/1.jpg' %}" alt="Second slide" style="height: 400px" width="1200px">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>ELECTRICAL AND ELECTRONIC ENGINEERING.</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
-            </div>
-          </div>
+          <img class="second-slide" src="{% static 'img/1.jpg' %}" alt="Second slide" style="height: 500px" width="1200px">
+{#          <div class="container">#}
+{#            <div class="carousel-caption">#}
+{#              <h1>ELECTRICAL AND ELECTRONIC ENGINEERING.</h1>#}
+{#              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>#}
+{#              <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>#}
+{#            </div>#}
+{#          </div>#}
         </div>
         <div class="item">
-          <img class="third-slide" src="{% static 'img/3.jpg' %}" alt="Third slide"  style="height: 400px" width="1200px">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>BUSINESS ADMINISTRATION.</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
-            </div>
-          </div>
+            <img class="third-slide" src="{% static 'img/4.jpg' %}" alt="Third slide" style="height: 500px" width="1200px">
+
+{#          <div class="container">#}
+{#            <div class="carousel-caption">#}
+{#              <h1>BUSINESS ADMINISTRATION.</h1>#}
+{#              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>#}
+{#              <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>#}
+{#            </div>#}
+{#          </div>#}
         </div>
+          <div class="item">
+            <img class="third-slide" src="{% static 'img/tt.jpg' %}" alt="Third slide" style="height: 500px" width="1200px">
+        </div>
+
+          <div class="item">
+            <img class="third-slide" src="{% static 'img/d1.jpg' %}" alt="Third slide" style="height: 500px" width="1200px">
+        </div>
+
+          <div class="item">
+            <img class="third-slide" src="{% static 'img/d2.png' %}" alt="Third slide" style="height: 500px" width="1200px">
+        </div>
+          <div class="item">
+            <img class="third-slide" src="{% static 'img/d3.png' %}" alt="Third slide" style="height: 500px" width="1200px">
+        </div>
+
+
+          <div class="item">
+            <img class="third-slide" src="{% static 'img/d5.png' %}" alt="Third slide" style="height: 500px" width="1200px">
+        </div>
+
+
+
       </div>
       <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
         <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
@@ -101,6 +132,158 @@
 
 
 
+
+    <!-- /.space -->
+    <div class="bal">
+        <h3>space</h3>
+
+    </div>
+
+
+
+
+
+
+     <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container marketing">
+
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col-lg-4">
+          <img class="img-circle" src="{% static 'img/a.jpg' %}" alt="Generic placeholder image" width="140" height="140">
+          <h2>Heading</h2>
+          <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle" src="{% static 'img/b.jpg' %}" alt="Generic placeholder image" width="140" height="140">
+          <h2>Heading</h2>
+          <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle" src="{% static 'img/c.jpg' %}" alt="Generic placeholder image" width="140" height="140">
+          <h2>Heading</h2>
+          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+
+
+      <!-- START THE FEATURETTES -->
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
+          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive center-block" src="{% static 'img/a.jpg' %}" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7 col-md-push-5">
+          <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
+          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        </div>
+        <div class="col-md-5 col-md-pull-7">
+          <img class="featurette-image img-responsive center-block" src="{% static 'img/b.jpg' %}" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
+          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive center-block" src="{% static 'img/c.jpg' %}" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <!-- /END THE FEATURETTES -->
+
+
+      <!-- FOOTER -->
+     <!-- The content of your page would go here. -->
+
+		<footer class="footer-distributed">
+
+			<div class="footer-left">
+
+{#				<h3>Company<span>logo</span></h3>#}
+                 <img class="third-slide" src="{% static 'img/111.jpg' %}" alt="Company Logo"  style="height: 150px" width="400px">
+
+				<p class="footer-links">
+					<a href="#">Home</a>
+					·
+					<a href="#">Blog</a>
+					·
+					<a href="#">Pricing</a>
+					·
+					<a href="#">About</a>
+					·
+					<a href="#">Faq</a>
+					·
+					<a href="#">Contact</a>
+				</p>
+
+				<p class="footer-company-name">TARSIRA COMPANY &copy; 2017</p>
+			</div>
+
+			<div class="footer-center">
+
+				<div>
+					<i class="fa fa-map-marker"></i>
+					<p><span>Mirpur 08 Road </span> Dhaka, Bangladesh</p>
+				</div>
+
+				<div>
+					<i class="fa fa-phone"></i>
+					<p>+880 1733-415955</p>
+				</div>
+
+				<div>
+					<i class="fa fa-envelope"></i>
+					<p><a href="/cdn-cgi/l/email-protection#eb989e9b9b84999fab8884869b8a8592c5888486"><span class="__cf_email__" data-cfemail="55262025253a272115363a3825343b2c7b363a38">[email&#160;protected]</span></a></p>
+				</div>
+
+			</div>
+
+			<div class="footer-right">
+
+				<p class="footer-company-about">
+					<span>About the company</span>
+					Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
+				</p>
+
+				<div class="footer-icons">
+
+					<a href="https://www.facebook.com/kamrujjamanjoy59"><i class="fa fa-facebook"></i></a>
+					<a href="https://twitter.com/JoyKamrujjaman"><i class="fa fa-twitter"></i></a>
+					<a href="https://www.linkedin.com/in/kamrujjaman-joy-b17621b4/"><i class="fa fa-linkedin"></i></a>
+					<a href="https://github.com/BLACKCAT25896"><i class="fa fa-github"></i></a>
+
+				</div>
+
+			</div>
+
+		</footer>
+
+
+    </div><!-- /.container -->
 
 
       </div>

@@ -1,4 +1,13 @@
-h1{
-    color: black;
-    background-color: white;
+.h1{
+    color: white;
+    background-color: black;
+}
+
+.wmd-panel{
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+}
+
+.comment-reply{
+    display:none;
 }

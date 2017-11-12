@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'posts',
     'pro',
+    'comments',
     'crispy_forms',
     'django.contrib.sites',
     'allauth',
@@ -134,20 +135,40 @@ db_from_env = dj_database_url.config(conn_max_age=500)
 # DATABASES['default'].update(db_from_env)
 DATABASES = { 'default': dj_database_url.config(conn_max_age=500) }
 
+
 STATIC_URL = '/static/'
 
-# Extra places for collectstatic to find static files.
-STATICFILES_DIRS = (
-    os.path.join(BASE_DIR, 'static'),
-)
-# STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
-STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
 
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, "static"),
+    #'/var/www/static/',
+]
 
 STATIC_ROOT = os.path.join(os.path.dirname(BASE_DIR), "static")
 
 MEDIA_URL = "/media/"
 MEDIA_ROOT = os.path.join(os.path.dirname(BASE_DIR), "media")
+
+
+
+
+
+
+#
+# STATIC_URL = '/static/'
+#
+# # Extra places for collectstatic to find static files.
+# STATICFILES_DIRS = (
+#     os.path.join(BASE_DIR, 'static'),
+# )
+# # STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+# STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
+#
+#
+# STATIC_ROOT = os.path.join(os.path.dirname(BASE_DIR), "static")
+#
+# MEDIA_URL = "/media/"
+# MEDIA_ROOT = os.path.join(os.path.dirname(BASE_DIR), "media")
 
 
 CRISPY_TEMPLATE_PACK = 'bootstrap3'

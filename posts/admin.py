@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .forms import PostForm
+
 # Register your models here.
 from .models import Post
 

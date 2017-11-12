@@ -2,121 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc8438bd-d28b-49e5-af5c-35f41ed991d1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/fonts/Roboto-Bold-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/fonts/Roboto-Light-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/fonts/Roboto-Regular-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/fav.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/fav.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/dd.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/fav.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/fav.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/kk.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/pagedown/wmd-buttons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/accounts/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/accounts/admin.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/accounts/apps.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/accounts/forms.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/accounts/migrations/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/accounts/models.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/accounts/tests.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/accounts/views.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comments/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comments/admin.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comments/apps.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comments/forms.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comments/migrations/0001_initial.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comments/migrations/0002_auto_20160325_2151.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comments/migrations/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comments/models.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comments/tests.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comments/urls.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comments/views.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/css/base.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/css/changelists.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/css/dashboard.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/css/fonts.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/css/forms.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/css/login.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/css/rtl.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/css/widgets.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/fonts/LICENSE.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/fonts/README.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/README.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/calendar-icons.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/gis/move_vertex_off.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/gis/move_vertex_on.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/icon-addlink.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/icon-alert.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/icon-calendar.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/icon-changelink.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/icon-clock.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/icon-deletelink.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/icon-no.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/icon-unknown-alt.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/icon-unknown.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/icon-yes.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/inline-delete.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/search.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/selector-icons.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/sorting-icons.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/tooltag-add.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/tooltag-arrowright.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/SelectBox.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/SelectFilter2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/actions.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/actions.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/admin/DateTimeShortcuts.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/admin/RelatedObjectLookups.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/calendar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/collapse.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/collapse.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/core.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/inlines.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/inlines.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/jquery.init.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/prepopulate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/prepopulate.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/timeparse.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/urlify.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/vendor/jquery/LICENSE-JQUERY.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/vendor/jquery/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/vendor/jquery/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/vendor/xregexp/LICENSE-XREGEXP.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/vendor/xregexp/xregexp.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/demo.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/footer-distributed-with-address-and-phones.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/pagedown-extra/Markdown.Extra.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/pagedown-extra/pagedown/Markdown.Converter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/pagedown/LICENSE.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/pagedown/Markdown.Converter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/pagedown/Markdown.Editor.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/pagedown/Markdown.Sanitizer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/pagedown/demo/browser/demo.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/pagedown/demo/browser/demo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/pagedown/demo/node/demo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/pagedown/local/Markdown.local.fr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/pagedown/node-pagedown.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/pagedown_init.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/comment_thread.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/confirm_delete.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/form.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/profile.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pro/static/img/111.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pro/static/img/a.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pro/static/img/b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pro/static/img/c.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pro/static/img/d1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pro/static/img/d2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pro/static/img/d3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pro/static/img/d4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pro/static/img/d5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/posts/migrations/0002_post_user.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/posts/migrations/0003_auto_20160105_2205.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/posts/migrations/0004_post_read_time.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/posts/migrations/0005_auto_20160412_0554.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/posts/templatetags/__init__.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/css/pagedown.css" afterPath="$PROJECT_DIR$/static/admin/css/pagedown.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/js/pagedown.js" afterPath="$PROJECT_DIR$/static/admin/js/pagedown.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/base.css" afterPath="$PROJECT_DIR$/static/css/base.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/about.html" afterPath="$PROJECT_DIR$/templates/about.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/account/signup.html" afterPath="$PROJECT_DIR$/templates/account/signup.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/base.html" afterPath="$PROJECT_DIR$/templates/base.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/contact.html" afterPath="$PROJECT_DIR$/templates/contact.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/home.html" afterPath="$PROJECT_DIR$/templates/home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/messages_display.html" afterPath="$PROJECT_DIR$/templates/messages_display.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/navbar.html" afterPath="$PROJECT_DIR$/templates/navbar.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/post_detail.html" afterPath="$PROJECT_DIR$/templates/post_detail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/post_form.html" afterPath="$PROJECT_DIR$/templates/post_form.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/post_list.html" afterPath="$PROJECT_DIR$/templates/post_list.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deploy/settings.py" afterPath="$PROJECT_DIR$/deploy/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/posts/admin.py" afterPath="$PROJECT_DIR$/posts/admin.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/posts/apps.py" afterPath="$PROJECT_DIR$/posts/apps.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/posts/forms.py" afterPath="$PROJECT_DIR$/posts/forms.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/posts/migrations/0001_initial.py" afterPath="$PROJECT_DIR$/posts/migrations/0001_initial.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/posts/models.py" afterPath="$PROJECT_DIR$/posts/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/posts/templatetags/urlify.py" afterPath="$PROJECT_DIR$/posts/templatetags/urlify.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/posts/tests.py" afterPath="$PROJECT_DIR$/posts/tests.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/posts/urls.py" afterPath="$PROJECT_DIR$/posts/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/posts/utils.py" afterPath="$PROJECT_DIR$/posts/utils.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/posts/views.py" afterPath="$PROJECT_DIR$/posts/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pro/dd/navbar.html" afterPath="$PROJECT_DIR$/pro/dd/navbar.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -134,8 +46,8 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/deploy/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="27" column="20" lean-forward="false" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+            <state relative-caret-position="-175">
+              <caret line="152" column="0" lean-forward="true" selection-start-line="152" selection-start-column="0" selection-end-line="152" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -516,11 +428,11 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298611" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3298611" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.6684028" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6684028" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -679,8 +591,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/deploy/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="27" column="20" lean-forward="false" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+        <state relative-caret-position="-175">
+          <caret line="152" column="0" lean-forward="true" selection-start-line="152" selection-start-column="0" selection-end-line="152" selection-end-column="0" />
           <folding />
         </state>
       </provider>

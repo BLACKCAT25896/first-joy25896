@@ -1,103 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bc8438bd-d28b-49e5-af5c-35f41ed991d1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pro/static/img/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pro/static/img/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pro/static/img/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pro/static/img/4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pro/static/img/home.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pro/static/img/homee.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pro/static/img/joy.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pro/static/img/tt.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/home.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/homee.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/joy.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/tt.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/posts/TTT/base.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/posts/TTT/messages_display.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/posts/TTT/navbar.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/posts/TTT/post_detail.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/posts/TTT/post_form.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/posts/TTT/post_list.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/posts/forms.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/posts/migrations/0001_initial.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/posts/settings.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/posts/static_cdn/admin/css/base.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/posts/static_cdn/admin/css/changelists.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/posts/static_cdn/admin/css/dashboard.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/posts/static_cdn/admin/css/fonts.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/posts/static_cdn/admin/css/forms.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/posts/static_cdn/admin/css/login.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/posts/static_cdn/admin/css/rtl.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/posts/static_cdn/admin/css/widgets.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/posts/static_cdn/admin/js/SelectBox.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/posts/static_cdn/admin/js/SelectFilter2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/posts/static_cdn/admin/js/actions.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/posts/static_cdn/admin/js/actions.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/posts/static_cdn/admin/js/admin/DateTimeShortcuts.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/posts/static_cdn/admin/js/admin/RelatedObjectLookups.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/posts/static_cdn/admin/js/calendar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/posts/static_cdn/admin/js/collapse.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/posts/static_cdn/admin/js/collapse.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/posts/static_cdn/admin/js/core.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/posts/static_cdn/admin/js/inlines.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/posts/static_cdn/admin/js/inlines.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/posts/static_cdn/admin/js/jquery.init.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/posts/static_cdn/admin/js/prepopulate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/posts/static_cdn/admin/js/prepopulate.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/posts/static_cdn/admin/js/timeparse.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/posts/static_cdn/admin/js/urlify.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/posts/static_cdn/admin/js/vendor/jquery/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/posts/static_cdn/admin/js/vendor/jquery/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/posts/static_cdn/admin/js/vendor/xregexp/xregexp.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/posts/static_cdn/css/base.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/posts/templatetags/urlify.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/posts/urls.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/posts/utils.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/posts/widgets.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pro/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pro/admin.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pro/apps.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pro/dd/about.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pro/dd/account/login.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pro/dd/account/logout.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pro/dd/account/signup.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pro/dd/base.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pro/dd/home.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pro/dd/navbar.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pro/dd/profile.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pro/migrations/0001_initial.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pro/migrations/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pro/models.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pro/static/css/base.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pro/static/css/bootstrap-theme.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pro/static/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pro/static/css/theme.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pro/static/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pro/static/js/docs.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pro/tests.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pro/urls.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pro/views.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/css/pagedown.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/pagedown.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/base.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/bootstrap-theme.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/theme.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/docs.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deploy/settings.py" afterPath="$PROJECT_DIR$/deploy/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deploy/urls.py" afterPath="$PROJECT_DIR$/deploy/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/posts/admin.py" afterPath="$PROJECT_DIR$/posts/admin.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/posts/models.py" afterPath="$PROJECT_DIR$/posts/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/posts/views.py" afterPath="$PROJECT_DIR$/posts/views.py" />
-    </list>
+    <list default="true" id="bc8438bd-d28b-49e5-af5c-35f41ed991d1" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -506,7 +410,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.8385417" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.6684028" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />

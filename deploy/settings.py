@@ -36,6 +36,18 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'posts',
+    'pro',
+    'crispy_forms',
+    'django.contrib.sites',
+    'allauth',
+    'allauth.account',
+    'allauth.socialaccount',
+    'stripe',
+    # 'contact',
+    # 'checkout',
+    'pagedown',
+    # 'markdown-deux',
 ]
 
 MIDDLEWARE = [
@@ -130,5 +142,14 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'static'),
 )
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+# STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
+
+
+STATIC_ROOT = os.path.join(os.path.dirname(BASE_DIR), "static")
+
+MEDIA_URL = "/media/"
+MEDIA_ROOT = os.path.join(os.path.dirname(BASE_DIR), "media")
+
+
+CRISPY_TEMPLATE_PACK = 'bootstrap3'

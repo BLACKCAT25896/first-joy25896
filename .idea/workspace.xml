@@ -2,7 +2,101 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc8438bd-d28b-49e5-af5c-35f41ed991d1" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pro/static/img/1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pro/static/img/2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pro/static/img/3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pro/static/img/4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pro/static/img/home.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pro/static/img/homee.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pro/static/img/joy.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pro/static/img/tt.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/home.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/homee.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/joy.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/tt.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/posts/TTT/base.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/posts/TTT/messages_display.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/posts/TTT/navbar.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/posts/TTT/post_detail.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/posts/TTT/post_form.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/posts/TTT/post_list.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/posts/forms.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/posts/migrations/0001_initial.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/posts/settings.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/posts/static_cdn/admin/css/base.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/posts/static_cdn/admin/css/changelists.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/posts/static_cdn/admin/css/dashboard.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/posts/static_cdn/admin/css/fonts.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/posts/static_cdn/admin/css/forms.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/posts/static_cdn/admin/css/login.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/posts/static_cdn/admin/css/rtl.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/posts/static_cdn/admin/css/widgets.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/posts/static_cdn/admin/js/SelectBox.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/posts/static_cdn/admin/js/SelectFilter2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/posts/static_cdn/admin/js/actions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/posts/static_cdn/admin/js/actions.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/posts/static_cdn/admin/js/admin/DateTimeShortcuts.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/posts/static_cdn/admin/js/admin/RelatedObjectLookups.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/posts/static_cdn/admin/js/calendar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/posts/static_cdn/admin/js/collapse.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/posts/static_cdn/admin/js/collapse.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/posts/static_cdn/admin/js/core.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/posts/static_cdn/admin/js/inlines.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/posts/static_cdn/admin/js/inlines.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/posts/static_cdn/admin/js/jquery.init.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/posts/static_cdn/admin/js/prepopulate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/posts/static_cdn/admin/js/prepopulate.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/posts/static_cdn/admin/js/timeparse.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/posts/static_cdn/admin/js/urlify.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/posts/static_cdn/admin/js/vendor/jquery/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/posts/static_cdn/admin/js/vendor/jquery/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/posts/static_cdn/admin/js/vendor/xregexp/xregexp.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/posts/static_cdn/css/base.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/posts/templatetags/urlify.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/posts/urls.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/posts/utils.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/posts/widgets.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pro/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pro/admin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pro/apps.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pro/dd/about.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pro/dd/account/login.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pro/dd/account/logout.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pro/dd/account/signup.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pro/dd/base.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pro/dd/home.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pro/dd/navbar.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pro/dd/profile.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pro/migrations/0001_initial.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pro/migrations/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pro/models.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pro/static/css/base.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pro/static/css/bootstrap-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pro/static/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pro/static/css/theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pro/static/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pro/static/js/docs.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pro/tests.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pro/urls.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pro/views.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/css/pagedown.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/pagedown.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/base.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/bootstrap-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/docs.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deploy/settings.py" afterPath="$PROJECT_DIR$/deploy/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deploy/urls.py" afterPath="$PROJECT_DIR$/deploy/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/posts/admin.py" afterPath="$PROJECT_DIR$/posts/admin.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/posts/models.py" afterPath="$PROJECT_DIR$/posts/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/posts/views.py" afterPath="$PROJECT_DIR$/posts/views.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,8 +114,8 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/deploy/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="27" column="24" lean-forward="false" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+            <state relative-caret-position="423">
+              <caret line="154" column="35" lean-forward="false" selection-start-line="154" selection-start-column="35" selection-end-line="154" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -52,19 +146,11 @@
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/deploy/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="21" column="32" lean-forward="false" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/posts/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="21" />
-              <folding />
+            <state relative-caret-position="357">
+              <caret line="21" column="2" lean-forward="false" selection-start-line="21" selection-start-column="2" selection-end-line="22" selection-end-column="0" />
+              <folding>
+                <element signature="e#640#672#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -80,8 +166,8 @@
         <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/runtime.txt" />
         <option value="$PROJECT_DIR$/posts/views.py" />
-        <option value="$PROJECT_DIR$/deploy/urls.py" />
         <option value="$PROJECT_DIR$/deploy/wsgi.py" />
+        <option value="$PROJECT_DIR$/deploy/urls.py" />
         <option value="$PROJECT_DIR$/deploy/settings.py" />
       </list>
     </option>
@@ -95,10 +181,12 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="88" />
     <option name="y" value="15" />
-    <option name="width" value="1225" />
+    <option name="width" value="1168" />
     <option name="height" value="735" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="Scope" currentSubView="Project Files" proportions="" version="1">
       <flattenPackages />
@@ -141,6 +229,34 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="deploy">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="pro">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="deploy">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="deploy">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -149,6 +265,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
     <property name="ignore_missing_gitignore" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\joy\PycharmProjects\deploy" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -375,10 +496,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="88" y="15" width="1225" height="735" extended-state="0" />
-    <editor active="true" />
+    <frame x="88" y="15" width="1168" height="735" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2583691" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27166066" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -386,7 +506,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.8385417" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.8385417" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -442,7 +562,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" column="32" lean-forward="false" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
-          <folding />
+          <folding>
+            <element signature="e#640#672#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -466,7 +588,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#640#672#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -477,26 +601,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/posts/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/runtime.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/deploy/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="21" column="32" lean-forward="false" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -518,10 +626,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/deploy/settings.py">
+    <entry file="file://$PROJECT_DIR$/posts/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deploy/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
-          <caret line="27" column="24" lean-forward="false" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+          <caret line="21" column="2" lean-forward="false" selection-start-line="21" selection-start-column="2" selection-end-line="22" selection-end-column="0" />
+          <folding>
+            <element signature="e#640#672#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deploy/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="154" column="35" lean-forward="false" selection-start-line="154" selection-start-column="35" selection-end-line="154" selection-end-column="35" />
           <folding />
         </state>
       </provider>

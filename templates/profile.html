@@ -1,16 +1,29 @@
+{#{% extends 'base.html' %}#}
+{#{% load crispy_forms_tags %}#}
+{#{% block content %}#}
+{#    <h1>{{ title }}</h1>#}
+{#    {% if confirm_message %}#}
+{#        <p> {{ confirm_message }}</p>#}
+{#    {% endif %}#}
+{#    {% if form %}#}
+{#   <form method="POST" action="">#}
+{#       {% csrf_token %}#}
+{#        {{ form|crispy }}#}
+{##}
+{##}
+{##}
+{#        <input type="submit" value="SubmitForm" class="btn btn-default" />#}
+{#    </form>#}
+{#    {% endif %}#}
+{#{% endblock %}#}
+{##}
+{##}
+
+
+
 {% extends 'base.html' %}
 {% block content %}
 
-
-{% block btn %}
-    <script>
-function submitButton()
-{
-var mylist=document.getElementById("myList");
-document.getElementById("favorite").innerHTML=mylist.options[mylist.selectedIndex].text;
-}
-</script>
-{% endblock %}
 
 <div class="container">
 
@@ -39,7 +52,7 @@ document.getElementById("favorite").innerHTML=mylist.options[mylist.selectedInde
 {#        </div>#}
         <h3>Personal info</h3>
 
-        <form class="form-horizontal" role="form">
+        <form class="form-horizontal" role="form" method="POST" action="">
           <div class="form-group">
             <label class="col-lg-3 control-label">First name:</label>
             <div class="col-lg-8">

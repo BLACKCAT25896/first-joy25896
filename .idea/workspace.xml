@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc8438bd-d28b-49e5-af5c-35f41ed991d1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/base.html" afterPath="$PROJECT_DIR$/templates/base.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/navbar.html" afterPath="$PROJECT_DIR$/templates/navbar.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,10 +30,10 @@
       <file leaf-file-name="navbar.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/navbar.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="67" column="49" lean-forward="false" selection-start-line="67" selection-start-column="49" selection-end-line="67" selection-end-column="49" />
+            <state relative-caret-position="391">
+              <caret line="65" column="56" lean-forward="false" selection-start-line="65" selection-start-column="56" selection-end-line="65" selection-end-column="56" />
               <folding>
-                <marker date="1510571138583" expanded="false" signature="4228:4239" ph="..." />
+                <marker date="1510571646109" expanded="false" signature="4230:4241" ph="..." />
               </folding>
             </state>
           </provider>
@@ -484,7 +483,7 @@
         <state relative-caret-position="1530">
           <caret line="90" column="50" lean-forward="false" selection-start-line="90" selection-start-column="50" selection-end-line="90" selection-end-column="50" />
           <folding>
-            <marker date="1510571138583" expanded="false" signature="4228:4239" ph="..." />
+            <marker date="1510571646109" expanded="false" signature="4230:4241" ph="..." />
           </folding>
         </state>
       </provider>
@@ -803,10 +802,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/navbar.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="67" column="49" lean-forward="false" selection-start-line="67" selection-start-column="49" selection-end-line="67" selection-end-column="49" />
+        <state relative-caret-position="391">
+          <caret line="65" column="56" lean-forward="false" selection-start-line="65" selection-start-column="56" selection-end-line="65" selection-end-column="56" />
           <folding>
-            <marker date="1510571138583" expanded="false" signature="4228:4239" ph="..." />
+            <marker date="1510571646109" expanded="false" signature="4230:4241" ph="..." />
           </folding>
         </state>
       </provider>

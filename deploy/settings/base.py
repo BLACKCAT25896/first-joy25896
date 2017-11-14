@@ -49,6 +49,7 @@ INSTALLED_APPS = [
     'contact',
     'checkout',
     'pagedown',
+    'storages',
     # 'markdown-deux',
 ]
 

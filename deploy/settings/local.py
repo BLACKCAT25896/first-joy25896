@@ -49,7 +49,7 @@ INSTALLED_APPS = [
     'contact',
     'checkout',
     'pagedown',
-    'storages',
+    # 'storages',
     # 'markdown-deux',
 ]
 
@@ -151,9 +151,10 @@ STATIC_ROOT = os.path.join(os.path.dirname(BASE_DIR), "static")
 MEDIA_URL = "/media/"
 MEDIA_ROOT = os.path.join(os.path.dirname(BASE_DIR), "media")
 
-
-
-
+# DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
+# STATICFILES_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
+#
+#
 
 
 #

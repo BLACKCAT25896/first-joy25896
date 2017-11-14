@@ -2,10 +2,51 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc8438bd-d28b-49e5-af5c-35f41ed991d1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/posts/TTT/base.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/posts/TTT/messages_display.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/posts/TTT/navbar.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/posts/TTT/post_detail.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/posts/TTT/post_form.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/posts/TTT/post_list.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/posts/static_cdn/admin/css/base.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/posts/static_cdn/admin/css/changelists.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/posts/static_cdn/admin/css/dashboard.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/posts/static_cdn/admin/css/fonts.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/posts/static_cdn/admin/css/forms.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/posts/static_cdn/admin/css/login.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/posts/static_cdn/admin/css/rtl.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/posts/static_cdn/admin/css/widgets.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/posts/static_cdn/admin/js/SelectBox.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/posts/static_cdn/admin/js/SelectFilter2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/posts/static_cdn/admin/js/actions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/posts/static_cdn/admin/js/actions.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/posts/static_cdn/admin/js/admin/DateTimeShortcuts.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/posts/static_cdn/admin/js/admin/RelatedObjectLookups.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/posts/static_cdn/admin/js/calendar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/posts/static_cdn/admin/js/collapse.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/posts/static_cdn/admin/js/collapse.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/posts/static_cdn/admin/js/core.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/posts/static_cdn/admin/js/inlines.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/posts/static_cdn/admin/js/inlines.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/posts/static_cdn/admin/js/jquery.init.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/posts/static_cdn/admin/js/prepopulate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/posts/static_cdn/admin/js/prepopulate.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/posts/static_cdn/admin/js/timeparse.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/posts/static_cdn/admin/js/urlify.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/posts/static_cdn/admin/js/vendor/jquery/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/posts/static_cdn/admin/js/vendor/jquery/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/posts/static_cdn/admin/js/vendor/xregexp/xregexp.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/posts/static_cdn/css/base.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro/dd/about.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro/dd/account/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro/dd/account/logout.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro/dd/account/signup.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro/dd/base.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro/dd/home.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro/dd/navbar.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro/dd/profile.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deploy/settings_old.py" afterPath="$PROJECT_DIR$/deploy/settings_old.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/navbar.html" afterPath="$PROJECT_DIR$/templates/navbar.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deploy/wsgi.py" afterPath="$PROJECT_DIR$/deploy/wsgi.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,40 +64,40 @@
       <file leaf-file-name="settings_old.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/deploy/settings_old.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="151" column="0" lean-forward="true" selection-start-line="151" selection-start-column="0" selection-end-line="151" selection-end-column="0" />
+            <state relative-caret-position="17">
+              <caret line="144" column="24" lean-forward="false" selection-start-line="144" selection-start-column="24" selection-end-line="144" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="base.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/deploy/settings/base.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1357">
-              <caret line="104" column="6" lean-forward="true" selection-start-line="104" selection-start-column="6" selection-end-line="104" selection-end-column="6" />
+            <state relative-caret-position="17">
+              <caret line="159" column="1" lean-forward="false" selection-start-line="159" selection-start-column="1" selection-end-line="159" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="navbar.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/navbar.html">
+      <file leaf-file-name="production.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/deploy/settings/production.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="106">
-              <caret line="65" column="68" lean-forward="false" selection-start-line="65" selection-start-column="68" selection-end-line="65" selection-end-column="68" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <marker date="1510592367077" expanded="false" signature="4242:4253" ph="..." />
+                <element signature="e#0#9#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/base.html">
+      <file leaf-file-name="local.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/deploy/settings/local.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="35" lean-forward="false" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+            <state relative-caret-position="374">
+              <caret line="156" column="0" lean-forward="false" selection-start-line="156" selection-start-column="0" selection-end-line="156" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -84,16 +125,16 @@
         <option value="$PROJECT_DIR$/templates/profile.html" />
         <option value="$PROJECT_DIR$/static/admin/js/actions.js" />
         <option value="$PROJECT_DIR$/deploy/settings.py" />
-        <option value="$PROJECT_DIR$/deploy/settings/base.py" />
-        <option value="$PROJECT_DIR$/deploy/settings/local.py" />
-        <option value="$PROJECT_DIR$/deploy/wsgi.py" />
         <option value="$PROJECT_DIR$/templates/500.html" />
         <option value="$PROJECT_DIR$/templates/400.html" />
         <option value="$PROJECT_DIR$/templates/404.html" />
         <option value="$PROJECT_DIR$/templates/base.html" />
         <option value="$PROJECT_DIR$/templates/navbar.html" />
-        <option value="$PROJECT_DIR$/deploy/settings_old.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/deploy/wsgi.py" />
+        <option value="$PROJECT_DIR$/deploy/settings/base.py" />
+        <option value="$PROJECT_DIR$/deploy/settings/local.py" />
+        <option value="$PROJECT_DIR$/deploy/settings_old.py" />
       </list>
     </option>
   </component>
@@ -127,7 +168,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope">
         <subPane subId="Project Files">
           <PATH>
@@ -142,6 +182,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -162,7 +203,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
     <property name="ignore_missing_gitignore" value="true" />
-    <property name="add_unversioned_files" value="$PROJECT_DIR$/.env" />
+    <property name="add_unversioned_files" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
@@ -399,7 +440,7 @@
   <component name="ToolWindowManager">
     <frame x="88" y="15" width="1168" height="735" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2761733" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28158844" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -454,6 +495,32 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="6" lean-forward="true" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/navbar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1105">
+          <caret line="65" column="68" lean-forward="false" selection-start-line="65" selection-start-column="68" selection-end-line="65" selection-end-column="68" />
+          <folding>
+            <marker date="1510592367077" expanded="false" signature="4242:4253" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="35" lean-forward="false" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/deploy/settings_old.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -530,6 +597,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -552,6 +620,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="43" lean-forward="false" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+          <folding>
+            <element signature="e#499#508#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -559,6 +630,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" column="32" lean-forward="false" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -574,6 +646,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -641,13 +714,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/deploy/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/posts/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -680,27 +746,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="9" lean-forward="false" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/deploy/wsgi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="25" column="55" lean-forward="false" selection-start-line="25" selection-start-column="55" selection-end-line="25" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/deploy/settings/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="3" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="216" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/deploy/settings/production.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -739,24 +784,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/deploy/settings/local.py">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="561">
+          <caret line="33" column="6" lean-forward="false" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/base.html">
+    <entry file="file://$PROJECT_DIR$/deploy/settings_old.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="35" lean-forward="false" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+        <state relative-caret-position="17">
+          <caret line="144" column="24" lean-forward="false" selection-start-line="144" selection-start-column="24" selection-end-line="144" selection-end-column="24" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deploy/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="29" column="1" lean-forward="false" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+          <folding>
+            <element signature="e#499#508#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/navbar.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
+        <state relative-caret-position="1105">
           <caret line="65" column="68" lean-forward="false" selection-start-line="65" selection-start-column="68" selection-end-line="65" selection-end-column="68" />
           <folding>
             <marker date="1510592367077" expanded="false" signature="4242:4253" ph="..." />
@@ -764,19 +820,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/deploy/settings_old.py">
+    <entry file="file://$PROJECT_DIR$/deploy/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="151" column="0" lean-forward="true" selection-start-line="151" selection-start-column="0" selection-end-line="151" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1357">
-          <caret line="104" column="6" lean-forward="true" selection-start-line="104" selection-start-column="6" selection-end-line="104" selection-end-column="6" />
+        <state relative-caret-position="17">
+          <caret line="4" column="35" lean-forward="false" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deploy/settings/local.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="156" column="0" lean-forward="false" selection-start-line="156" selection-start-column="0" selection-end-line="156" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deploy/settings/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="159" column="1" lean-forward="false" selection-start-line="159" selection-start-column="1" selection-end-line="159" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deploy/settings/production.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

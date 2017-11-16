@@ -17,6 +17,7 @@
            {% url 'home' as home %}
           {% url 'about' as about %}
           {% url 'contact' as contact %}
+          {% url 'bal' as bal %}
 {#          {% url 'checkout' as checkout %}#}
 {#          {% url 'post_list' as post_list %}#}
 {#          {% url 'post_create' as post_create %}#}
@@ -28,6 +29,7 @@
 {#             <li {% if request.path == checkout %} class="active" {% endif %}><a href="{% url 'checkout' %}">PAYMENT</a></li>#}
 {#              <li {% if request.path == post_list %} class="active" {% endif %}><a href="{% url 'post_list' %}">POSTS</a></li>#}
 {#            <li {% if request.path == post_create %} class="active" {% endif %}><a href="{% url 'post_create' %}"><span class="glyphicon glyphicon-pencil"></span>CREATE-POSTS</a></li>#}
+              <li {% if request.path == bal %} class="active" {% endif %}><a href="{% url 'bal' %}"><span class="glyphicon glyphicon-envelope"></span><span></span>Chat</a></li>
 
 
 

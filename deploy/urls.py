@@ -22,7 +22,8 @@ from pro import views as pro_views
 from contact import views as contact_views
 from checkout import views as checkout_views
 from posts import views as posts_views
-from accounts import views as accounts_views
+# from accounts import views as accounts_views
+from alpha import views as alpha_views
 
 
 from accounts.views import (login_view, register_view, logout_view)
@@ -46,6 +47,13 @@ urlpatterns = [
     url(r'^login/', login_view, name='login'),
     url(r'^logout/', logout_view, name='logout'),
     url(r'^posts/', include("posts.urls", namespace='posts')),
+    url(r'^alpha/', include("alpha.urls", namespace='alpha')),
+
+    url(r'^login', alpha_views.login, name='login'),
+    url(r'^bal', alpha_views.Home, name='bal'),
+
+
+
     #url(r'^posts/$', "<appname>.views.<function_name>"),
 
 ]

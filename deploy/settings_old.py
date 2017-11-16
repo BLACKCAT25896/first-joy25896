@@ -37,9 +37,11 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django.contrib',
+    'django.contrib.sites',
     'posts',
     'pro',
     'comments',
+    'alpha',
     'crispy_forms',
     'django.contrib.sites',
     'allauth',
@@ -49,6 +51,7 @@ INSTALLED_APPS = [
     'contact',
     'checkout',
     'pagedown',
+
     # 'storages',
     # 'markdown-deux',
 ]
@@ -152,6 +155,8 @@ MEDIA_URL = "/media/"
 MEDIA_ROOT = os.path.join(os.path.dirname(BASE_DIR), "media")
 
 
+LOGIN_URL = '/login/'
+
 
 
 # DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
@@ -194,7 +199,7 @@ CRISPY_TEMPLATE_PACK = 'bootstrap3'
 
 
 SITE_ID = 1
-LOGIN_URL = '/accounts/login/'
+# LOGIN_URL = '/accounts/login/'
 
 LOGIN_REDIRECT_URL = '/'
 

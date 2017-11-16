@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'posts',
     'pro',
     'comments',
+    'alpha',
     'crispy_forms',
     'django.contrib.sites',
     'allauth',

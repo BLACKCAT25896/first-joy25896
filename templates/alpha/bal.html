@@ -1,22 +1,6 @@
 {% extends 'base.html' %}
 {% load staticfiles %}
 
-{#<html>#}
-{##}
-{#<head>#}
-{#    <title>Chat Panel</title>#}
-{#    <!-- Latest compiled and minified CSS -->#}
-{#    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">#}
-{#    <link rel="stylesheet" href="{% static 'chat.css' %}">#}
-{##}
-{#    <!-- jQuery library -->#}
-{#    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>#}
-{##}
-{#    <!-- Latest compiled JavaScript -->#}
-{#    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>#}
-{#</head>#}
-{##}
-{#<body>
 {% block chat %}
     <div id="chat-body" class="panel panel-default">
         <div class="panel-heading">Chat Box</div>
@@ -47,9 +31,7 @@
             </span>
         </div>
     </form>
-{#</body>#}
 
+{#<script src="{% static 'chat.js' %}"></script>#}
 
-{#</html>#}
 {% endblock chat %}
-<script src="{% static 'chat.js' %}"></script>

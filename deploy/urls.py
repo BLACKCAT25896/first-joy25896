@@ -49,7 +49,7 @@ urlpatterns = [
     url(r'^posts/', include("posts.urls", namespace='posts')),
     url(r'^alpha/', include("alpha.urls", namespace='alpha')),
 
-    url(r'^login', alpha_views.login, name='login'),
+    # url(r'^login', alpha_views.login, name='login'),
     url(r'^bal', alpha_views.Home, name='bal'),
 
 

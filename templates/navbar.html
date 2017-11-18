@@ -14,6 +14,7 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
+
            {% url 'home' as home %}
           {% url 'about' as about %}
           {% url 'contact' as contact %}
@@ -22,13 +23,22 @@
 {#          {% url 'post_list' as post_list %}#}
 {#          {% url 'post_create' as post_create %}#}
 
-
+                    {% if not request.user.is_authenticated %}
             <li {% if request.path == home %} class="active" {% endif %}><a href="{% url 'home' %}"><span class="glyphicon glyphicon-home"></span><span></span>HOME</a></li>
             <li {% if request.path == about %} class="active" {% endif %}><a href="{% url 'about' %}">ABOUT</a></li>
             <li {% if request.path == contact %} class="active" {% endif %}><a href="{% url 'contact' %}"><span class="glyphicon glyphicon-phone-alt"></span><span></span>CONTACT</a></li>
 {#             <li {% if request.path == checkout %} class="active" {% endif %}><a href="{% url 'checkout' %}">PAYMENT</a></li>#}
 {#              <li {% if request.path == post_list %} class="active" {% endif %}><a href="{% url 'post_list' %}">POSTS</a></li>#}
 {#            <li {% if request.path == post_create %} class="active" {% endif %}><a href="{% url 'post_create' %}"><span class="glyphicon glyphicon-pencil"></span>CREATE-POSTS</a></li>#}
+
+             {% else %}
+
+                 <li {% if request.path == home %} class="active" {% endif %}><a href="{% url 'home' %}"><span class="glyphicon glyphicon-home"></span><span></span>HOME</a></li>
+            <li {% if request.path == about %} class="active" {% endif %}><a href="{% url 'about' %}">ABOUT</a></li>
+            <li {% if request.path == contact %} class="active" {% endif %}><a href="{% url 'contact' %}"><span class="glyphicon glyphicon-phone-alt"></span><span></span>CONTACT</a></li>
+{#             <li {% if request.path == checkout %} class="active" {% endif %}><a href="{% url 'checkout' %}">PAYMENT</a></li>#}
+{#
+
               <li {% if request.path == bal %} class="active" {% endif %}><a href="{% url 'bal' %}"><span class="glyphicon glyphicon-envelope"></span><span></span>Chat</a></li>
 
 
@@ -44,7 +54,7 @@
               </ul>
             </li>
 
-
+            {% endif %}
           </ul>
          <ul class="nav navbar-nav navbar-right">
 {#           {% url 'login' as login %}#}
@@ -59,13 +69,13 @@
                {% else %}
 
              <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-user" style="color:white"></span><span></span>{{ user.username }}<span class="caret"></span></a>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><h5>{{ user.username }}</h5></a>
               <ul class="dropdown-menu">
 {#                  {% if not request.user.is_authenticated %}#}
 {#                <li><a href="{% url 'register' %}">Registration</a></li>#}
 {#                <li><a href="{% url 'login' %}">Login</a></li>#}
 {#                  {% else %}#}
-                      <li><a href="{% url 'profile' %}"><h3>My Profile</h3></a></li>
+                      <li><a href="{% url 'profile' %}"><h4>My Profile</h4></a></li>
                        <li><a href="#"><h4>Settings</h4></a></li>
                 <li><a href="{% url 'logout' %}">LOGOUT</a></li>
 {#                  {% endif %}#}

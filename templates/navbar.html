@@ -18,8 +18,9 @@
            {% url 'home' as home %}
           {% url 'about' as about %}
           {% url 'contact' as contact %}
+          {% url 'enter' as enter %}
           {% url 'bal' as bal %}
-{#          {% url 'checkout' as checkout %}#}
+          {% url 'admin' as admin %}
 {#          {% url 'post_list' as post_list %}#}
 {#          {% url 'post_create' as post_create %}#}
 
@@ -64,12 +65,12 @@
 {#             <li {% if request.path == register %} class="active" {% endif %}><a href="{% url 'register' %}" > <span class="glyphicon glyphicon-user"></span>SIGNUP</a></li>#}
 
                  {% if not request.user.is_authenticated %}
-               <li><a href="{% url 'register' %}"><span class="glyphicon glyphicon-user" style="color:white"></span>Registration</a></li>
-                <li><a href="{% url 'login' %}"><span class="glyphicon glyphicon-lock" style="color:white"></span>Login</a></li>
+               <li><a href="{% url 'register' %}"><span class="glyphicon glyphicon-user" ></span>Registration</a></li>
+                <li><a href="{% url 'login' %}"><span class="glyphicon glyphicon-lock" ></span>Login</a></li>
                {% else %}
 
              <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><h5>{{ user.username }}</h5></a>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ user.username }}</a>
               <ul class="dropdown-menu">
 {#                  {% if not request.user.is_authenticated %}#}
 {#                <li><a href="{% url 'register' %}">Registration</a></li>#}
@@ -105,8 +106,11 @@
 {##}
 {#              </ul>#}
 {#            </li>#}
+{##}
+{#             <li><a href="{% url 'profile' %}">{{ user.username }}</a>#}
+           <li {% if request.path == admin %} class="active" {% endif %}><a href="/admin/login/?next=/admin/"><span class="glyphicon glyphicon-knight"></span><span></span>Admin</a></li>
 
-{#             <li><a href="{% url 'profile' %}">{{ user.username }}</a></li>#}
+
 
               </ul>
         </div><!--/.nav-collapse -->

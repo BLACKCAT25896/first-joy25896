@@ -5,7 +5,7 @@ from deploy import settings_old
 
 from .models import Chat
 
-def Login(request):
+def Enter(request):
     next = request.GET.get('next', '/bal/')
     if request.method == "POST":
         username = request.POST['username']
@@ -20,13 +20,13 @@ def Login(request):
                 return HttpResponse("Account is not active at the moment.")
         else:
             return HttpResponseRedirect(settings_old.LOGIN_URL)
-    return render(request, "alpha/login.html", {'next': next})
+    return render(request, "alpha/enter.html", {'next': next})
 
 def Logout(request):
     logout(request)
-    return HttpResponseRedirect('/login/')
+    return HttpResponseRedirect('/enter/')
 
-def Home(request):
+def Bal(request):
     c = Chat.objects.all()
     return render(request, "alpha/bal.html", {'bal': 'active', 'chat': c})
 

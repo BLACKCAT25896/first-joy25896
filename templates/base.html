@@ -29,7 +29,7 @@
     <!-- Custom styles for this template -->
     <link href="{% static 'css/theme.css' %}" rel="stylesheet">
 
-
+       <!-- head for chat-->
  <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="{% static 'chat.css' %}">
@@ -112,8 +112,19 @@ fjs.parentNode.insertBefore(js, fjs);
 
 <!--extra navbar-->
 
+<!-- chat panal-->
+{#{% include 'messages.html' %}#}
+
+ <script>
+     var chatlist = document.getElementById('msg-list-div');
+     chatlist.scrollTop = chatlist.scrollHeight;
+ </script>
 
 
+<div class="row">
+    {% block chat %}{% endblock chat %}
+
+</div>
 
 <div class='container'>
 {#    <ol class='breadcrumb'>#}
@@ -129,7 +140,7 @@ fjs.parentNode.insertBefore(js, fjs);
 {#        {% endif %}#}
 {#    </ol>#}
 {% block content %}{% endblock content %}
-{% block chat %}{% endblock chat %}
+{#{% block chat %}{% endblock chat %}#}
 </div>
 
 
@@ -147,6 +158,9 @@ fjs.parentNode.insertBefore(js, fjs);
  chatlist.scrollTop = chatlist.scrollHeight;
  </script>
 <script src="{% static 'chat.js' %}">
+
+
+
  </script>
 <script type="text/javascript">
 $(document).ready(function(){
@@ -206,7 +220,6 @@ $(document).ready(function(){
 
 </body>
 
-<script src="{% static 'chat.js' %}"></script>
 
 </html>
 

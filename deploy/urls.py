@@ -50,7 +50,8 @@ urlpatterns = [
     url(r'^alpha/', include("alpha.urls", namespace='alpha')),
 
     # url(r'^login', alpha_views.login, name='login'),
-    url(r'^bal', alpha_views.Home, name='bal'),
+    url(r'^bal', alpha_views.Bal, name='bal'),
+    url(r'^enter', alpha_views.Enter, name='enter'),
 
 
 

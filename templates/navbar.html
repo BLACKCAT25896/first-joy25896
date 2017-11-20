@@ -67,6 +67,10 @@
                  {% if not request.user.is_authenticated %}
                <li><a href="{% url 'register' %}"><span class="glyphicon glyphicon-user" ></span>Registration</a></li>
                 <li><a href="{% url 'login' %}"><span class="glyphicon glyphicon-lock" ></span>Login</a></li>
+
+                <li {% if request.path == admin %} class="active" {% endif %}><a href="/admin/login/?next=/admin/"><span class="glyphicon glyphicon-knight"></span><span></span>Admin</a></li>
+
+
                {% else %}
 
              <li class="dropdown">
@@ -108,8 +112,6 @@
 {#            </li>#}
 {##}
 {#             <li><a href="{% url 'profile' %}">{{ user.username }}</a>#}
-           <li {% if request.path == admin %} class="active" {% endif %}><a href="/admin/login/?next=/admin/"><span class="glyphicon glyphicon-knight"></span><span></span>Admin</a></li>
-
 
 
               </ul>

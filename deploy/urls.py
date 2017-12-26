@@ -27,13 +27,20 @@ from alpha import views as alpha_views
 
 
 from accounts.views import (login_view, register_view, logout_view)
-
+from posts.views import (
+    post_list,
+    post_create,
+    post_detail,
+    post_update,
+    post_delete,
+)
 
 urlpatterns = [
     
     url(r'^admin/', admin.site.urls),
     url(r'^comments/', include("comments.urls", namespace='comments')),
-    url(r'^$', pro_views.home, name='home'),
+    url(r'^$', pro_views.home1, name='home1'),
+    url(r'^home', pro_views.home, name='home'),
     url(r'^about$', pro_views.about, name='about'),
     url(r'^profile$', pro_views.userProfile, name='profile'),
     url(r'^checkout$', checkout_views.checkout, name='checkout'),
@@ -55,9 +62,18 @@ urlpatterns = [
 
 
 
+    url(r'^$', post_list, name='list'),
+    url(r'^create/$', post_create),
+    url(r'^(?P<slug>[\w-]+)/$', post_detail, name='detail'),
+    url(r'^(?P<slug>[\w-]+)/edit/$', post_update, name='update'),
+    url(r'^(?P<slug>[\w-]+)/delete/$', post_delete),
     #url(r'^posts/$', "<appname>.views.<function_name>"),
-
 ]
+
+
+#     #url(r'^posts/$', "<appname>.views.<function_name>"),
+#
+# ]
 
 if settings.DEBUG:
     urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)

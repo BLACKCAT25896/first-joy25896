@@ -8,6 +8,12 @@ def home(request):
     return render(request,template,context)
 
 
+def home1(request):
+    context = locals()
+    template = 'home1.html'
+    return render(request,template,context)
+
+
 def about(request):
     context = locals()
     template = 'about.html'

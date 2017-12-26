@@ -1,0 +1,36 @@
+{% load staticfiles %}
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href=" "> <img src="{% static 'img/111.jpg' %}"  style="height: 50px" width="100px" class="profile-image img-circle"></a>
+
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+
+           {% url 'home' as home1 %}
+           {% url 'admin' as admin %}
+           <li {% if request.path == home %} class="active" {% endif %}><a href="{% url 'home' %}"><span></span><h2>bekar59</h2></a></li>
+
+{#            <li {% if request.path == home %} class="active" {% endif %}><a href="{% url 'home' %}"><span></span><h2>Admin</h2></a></li>#}
+
+           <li {% if request.path == admin %} class="active" {% endif %}><a href="/admin/login/?next=/admin/"><span></span><h2>Admin</h2></a></li>
+
+
+             <li {% if request.path == home %} class="active" {% endif %}><a href="{% url 'home' %}"><span></span><h2>User</h2></a></li>
+
+
+
+          </ul>
+
+
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>

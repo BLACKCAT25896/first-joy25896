@@ -20,7 +20,7 @@
           {% url 'contact' as contact %}
           {% url 'enter' as enter %}
           {% url 'bal' as bal %}
-          {% url 'admin' as admin %}
+
 {#          {% url 'post_list' as post_list %}#}
 {#          {% url 'post_create' as post_create %}#}
 
@@ -68,7 +68,7 @@
                <li><a href="{% url 'register' %}"><span class="glyphicon glyphicon-user" ></span>Registration</a></li>
                 <li><a href="{% url 'login' %}"><span class="glyphicon glyphicon-lock" ></span>Login</a></li>
 
-                <li {% if request.path == admin %} class="active" {% endif %}><a href="/admin/login/?next=/admin/"><span class="glyphicon glyphicon-knight"></span><span></span>Admin</a></li>
+{#                <li {% if request.path == admin %} class="active" {% endif %}><a href="/admin/login/?next=/admin/"><span class="glyphicon glyphicon-knight"></span><span></span>Admin</a></li>#}
 
 
                {% else %}

@@ -42,7 +42,7 @@ INSTALLED_APPS = [
     'pro',
     'comments',
     'alpha',
-    'crispy_forms',
+    # 'crispy_forms',
     'django.contrib.sites',
     'allauth',
     'allauth.account',
